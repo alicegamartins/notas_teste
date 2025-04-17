@@ -1,4 +1,4 @@
-// src/BackendTest.jsx
+
 import { useEffect, useState } from 'react';
 import { pingServidor, enviarAluno } from './api';
 
@@ -14,8 +14,8 @@ function BackendTest() {
 
   const alunoFake = {
     name: 'Aluno Backend',
-    grades: [8, 7.5, 9, 6, 8.5],
-    attendance: 90,
+    grades: [7, 8, 6, 9, 10],
+    attendance: 70,
   };
 
   const handleEnviar = async () => {
