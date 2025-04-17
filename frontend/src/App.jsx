@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import './App.css';
 
+
+
 const initialStudent = {
   name: '',
   grades: [0, 0, 0, 0, 0],
   attendance: 100,
 };
+
 
 function App() {
   const [students, setStudents] = useState([]);
@@ -21,6 +24,8 @@ function App() {
     }
   };
 
+
+
   const addStudent = () => {
     setStudents([...students, { ...form, grades: form.grades.map(Number), attendance: Number(form.attendance) }]);
     setForm(initialStudent);
@@ -34,7 +39,6 @@ function App() {
 
   const disciplineAverages = classAverages();
   const overallClassAverage = disciplineAverages.reduce((a, b) => a + b, 0) / 5;
-
   const studentsAboveAverage = students.filter((s) => (s.grades.reduce((a, b) => a + b, 0) / s.grades.length) > overallClassAverage);
   const studentsLowAttendance = students.filter((s) => s.attendance < 75);
 
