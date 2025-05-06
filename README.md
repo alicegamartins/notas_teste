@@ -9,7 +9,7 @@
 
  ## Instruções para executar o sistema
 
- clonar o repositorio https://github.com/alicegamartins/notasdti_teste.git
+ clonar o repositorio https://github.com/alicegamartins/notas_teste.git
 
 ### Frontend
 
