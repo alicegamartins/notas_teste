@@ -2,7 +2,7 @@
 
 ### Acesse o site:
 
-https://notasdti-teste-vfhh-git-main-alicegamartins-gmailcoms-projects.vercel.app/
+
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/428153bd-2166-41de-ac7e-d2cc0666a267" />
 
